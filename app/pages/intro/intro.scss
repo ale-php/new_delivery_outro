@@ -1,0 +1,38 @@
+ion-slide {
+  background-color: darkcyan;
+  background-size: cover !important;
+  background-position: center center !important;
+
+  &.khaki {
+    background-color: darkkhaki;
+  }
+
+  .overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  img {
+    height: 90vh !important;
+    width: auto !important;
+    margin-bottom: -120px;
+  }
+}

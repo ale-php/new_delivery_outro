@@ -1,0 +1,24 @@
+.categories-page {
+  .toolbar-title {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
+  }
+
+  ion-card {
+    background-position: center center !important;
+    background-size: cover !important;
+
+    ion-card-content {
+      background: rgba(0,0,0,.7);
+      padding: 38px 16px 32px;
+
+      h1, p {
+        color: white;
+      }
+
+      h1 {
+        font-weight: bold;
+      }
+    }
+  }
+}

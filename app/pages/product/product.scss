@@ -1,0 +1,34 @@
+.product-page {
+  .toolbar[dark] {
+    background-size: cover !important;
+    background-position: center center !important;
+    min-height: 16rem;
+  }
+
+  .toolbar[dark] {
+    align-items: initial;
+    flex-direction: column;
+
+    ion-buttons {
+      text-align: right;
+      order: inherit ;
+      flex-grow: 1;
+    }
+
+    .toolbar-background {
+      background: rgba(0,0,0,.8);
+    }
+
+    .toolbar-content {
+      max-width: 80%;
+      padding-bottom: 10px;
+      flex: initial;
+    }
+
+    .toolbar-title {
+      white-space: initial;
+      text-overflow: initial;
+      overflow: initial;
+    }
+  }
+}

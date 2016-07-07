@@ -1,0 +1,19 @@
+.products {
+  background-color: #efefef;
+
+  ion-item {
+    margin-bottom: 5px;
+
+    h2 + ion-row {
+      margin-top: 28px;
+    }
+
+    ion-col {
+      padding: 0;
+
+      &.likes {
+        color: #bbb;
+      }
+    }
+  }
+}

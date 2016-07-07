@@ -1,0 +1,29 @@
+.profile-page{
+  background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/0SKW4T9BAC.jpg') center center;
+  background-size: cover;
+
+  .toolbar .toolbar-background, ion-content{
+    background: rgba(0,0,0,.8);
+    border-color: transparent;
+  }
+}
+
+.profile {
+  ion-card {
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+
+    ion-item {
+      background: transparent;
+
+      p {
+        color: #aaa;
+      }
+    }
+
+    h2, p {
+      color: white;
+    }
+  }
+}
