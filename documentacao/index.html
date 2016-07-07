@@ -1,0 +1,205 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Caetano - Ionic 2 Restaurant App</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Jean Lucas de Carvalho">
+	<meta name="copyright" content="Jean Lucas de Carvalho">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-03-22T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-caetano">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#intro" title="Intro">Intro</a></li>
+			<li><a href="#folder_structure" title="Folder Structure">Folder Structure</a></li>
+			<li><a href="#typescript" title="Typescript">Typescript</a></li>
+			<li><a href="#usage" title="Usage">Usage</a></li>
+			<li><a href="#psd_files" title="PSD Files">PSD Files</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Jean Lucas de Carvalho 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Caetano</h1>
+	<h2>Ionic 2 Restaurant App</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 03/03/2011</li>
+	<li>latest update: 03/22/2016</li>
+	<li>by: Jean Lucas de Carvalho</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#111;&#105;&#64;&#106;&#101;&#97;&#110;&#108;&#117;&#99;&#97;&#115;&#46;&#99;&#111;&#109;&#46;&#98;&#114;">&#111;&#105;&#64;&#106;&#101;&#97;&#110;&#108;&#117;&#99;&#97;&#115;&#46;&#99;&#111;&#109;&#46;&#98;&#114;</a></li>
+	</ul>
+	<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+	</section>
+	
+	<section id="intro">
+	<div class="page-header"><h3>Intro</h3><hr class="notop"></div>
+<p>
+	Caetano is a fully functional high performance app perfect for Restaurant, Bakery and Coffee Shops.<br>
+	This starter is built with Angular 2, Ionic 2, Typescript and SASS to take advantage of the future web standards.</p>
+<h4 id="intro_demo">Demo</h4>
+<p>
+	Download the Ionic View app (<a href="http://view.ionic.io">view.ionic.io</a>) and use the **APP ID 215f0a5e**.</p>
+<h4 id="intro_screens">Screens</h4>
+<ul>
+	<li>
+		Introduce Page</li>
+	<li>
+		Category Page</li>
+	<li>
+		Product Menu</li>
+	<li>
+		Product Detail</li>
+	<li>
+		Shopping Cart</li>
+	<li>
+		User Profile</li>
+</ul>
+<h4 id="intro_features">Features</h4>
+<ul>
+	<li>
+		Ionic 2 with Typescript</li>
+	<li>
+		SCSS instead of CSS</li>
+	<li>
+		Automatic compilation</li>
+	<li>
+		Icon and Splashscreen in PSD</li>
+</ul>
+</section>
+<section id="folder_structure">
+	<div class="page-header"><h3>Folder Structure</h3><hr class="notop"></div>
+<p>
+	&quot;If you take a look at the files and folders generated, it all looks pretty similar to an Ionic 1 application initially. We have the typical Cordova style project structure, just with a couple more files (like <strong>tsconfig.json</strong> which is for TypeScript and <strong>webpack.config.js</strong> which is for Webpack).</p>
+<p>
+	If you look in the <strong>app</strong> folder though, things start looking a little bit different:</p>
+<p>
+	<img alt="" src="assets/images/image_1.png"  ></p>
+<p>
+	<strong>UPDATE:</strong> In the latest version of Ionic 2 the file structure looks a little different to this. The <strong>app</strong> folder now sits outside of the <strong>www</strong> folder and there&rsquo;s a few more <strong>.scss</strong> files.</p>
+<p>
+	Usually in an Ionic 1 application, people would have all of their Javascript files (controllers, services etc.) in one folder, all of the templates in another folder, and all of the styling information would usually be contained in a single <strong>app.scss</strong> file.</p>
+<p>
+	The default structure for an Ionic 2 application organises by functionality, so you have all of the logic, templates and styling for a particular component (in the example above we have a basic page component, a list component, and an item details component) in the one spot. This plays in well with the Angular 2 methodology of having everything be standalone components that can easily be reused in other places or projects. If you wanted to reuse a particular feature, or have lots of people working on the same project, the old Ionic 1 approach can become quite troublesome.</p>
+<p>
+	The idea of organising code by feature is not particular to Angular 2 &amp; Ionic 2, in fact people were using and advocating for the feature based approach in Ionic 1 applications, it&rsquo;s just that most people were doing it the other way. With the way Angular 2 works though, using the feature based structure makes a lot more sense.&quot;</p>
+<p>
+	For more info read: <a href="http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/">Ionic 2 First Look Series: Your First Ionic 2 App Explained</a></p>
+</section>
+<section id="typescript">
+	<div class="page-header"><h3>Typescript</h3><hr class="notop"></div>
+<p>
+	By default Ionic 2 allow you to start a project with <a href="http://www.typescriptlang.org/">TypeScript</a>, to stay up-to-date with the new way to work with Ionic see this <a href="http://ionicframework.com/docs/v2/getting-started/migration/">Migration Guide</a>.</p>
+</section>
+<section id="usage">
+	<div class="page-header"><h3>Usage</h3><hr class="notop"></div>
+<ol>
+	<li>
+		Install Ionic CLI `npm install -g ionic@beta`, please setting Ionic CLI work before next step. More info check: <a href="http://ionicframework.com/docs/v2/getting-started/installation/">http://ionicframework.com/docs/v2/getting-started/installation/</a></li>
+	<li>
+		Download and extract the zip file and navigate to the folder in the Terminal.</li>
+	<li>
+		Run `npm install &amp;&amp; ionic state restore` to install dependencies.</li>
+	<li>
+		Generate icon and splash for your app: `ionic resources`.</li>
+	<li>
+		Try: `ionic serve`.</li>
+</ol>
+</section>
+<section id="psd_files">
+	<div class="page-header"><h3>PSD Files</h3><hr class="notop"></div>
+<p>
+	I&#39;ve included two psds with this theme:</p>
+<ol>
+	<li>
+		The icon</li>
+	<li>
+		The splashscreen</li>
+</ol>
+<p>
+	If you&#39;d like to change one of them, open the file (&quot;icon.source.psd&quot; or &quot;splash.source.psd&quot;), make the necessary adjustments, and then save the file as &quot;icon.png&quot; or &quot;splash.png&quot;. After that go into the terminal and run the &quot;ionic resources&quot; command in the project root</p>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>
+	The icon used in this project is &#39;chef&#39; by Aldric Rodr&iacute;guez Iborra from the Noun Project.</p>
+<hr>
+<p>
+	Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>
+	<strong>Jean Lucas de Carvalho</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
